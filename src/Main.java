@@ -7,7 +7,7 @@ public class Main {
             long startTime = System.nanoTime();
             //последовательное копирование 2 файлов
             copyFile("input.txt","output.txt");
-            copyFile("input.txt","output.txt");
+            copyFile("input1.txt","output1.txt");
 
             long time = System.nanoTime() - startTime;
             System.out.println("Последовательное копирование двух файлов заняло " + time + " наносекунд");
